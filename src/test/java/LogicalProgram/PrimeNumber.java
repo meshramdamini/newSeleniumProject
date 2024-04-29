@@ -30,6 +30,7 @@ public class PrimeNumber
 	}
 
 	  //making changes
+	  //changes
 	  
 	}
 	}
