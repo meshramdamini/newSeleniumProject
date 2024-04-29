@@ -14,6 +14,7 @@ public class EvenOddNumber {
 			System.out.println(num  +" "+ " is odd number");
 			
 		}
+		//hi damini
 
 
 	}
