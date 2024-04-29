@@ -31,7 +31,7 @@ public class loginPage
 	WebElement loginBtn;
 	
 	
-	//webelement pe operation perform krne k liye mehod create krni hogi
+	//webelement pe operation perform krne k liye mehod create krni hogi testing
 	public void enterUsername(String uname)
 	{
 		usernam.sendKeys(uname);
