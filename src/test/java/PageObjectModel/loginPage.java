@@ -42,8 +42,8 @@ public class loginPage
 	}
 	public void login()
 	{
-		loginBtn.click(); abc
-		//abc
+		loginBtn.click(); 
+		
 	}
 
 }
