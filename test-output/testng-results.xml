@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-02T18:47:43 IST" name="Suite" finished-at="2024-05-02T18:47:43 IST" duration-ms="236">
+    <groups>
+      <group name="Automobile">
+        <method signature="GroupAttribute.creta()[pri:0, instance:groups.GroupAttribute@6ae5aa72]" name="creta" class="groups.GroupAttribute"/>
+        <method signature="GroupAttribute.maruti()[pri:0, instance:groups.GroupAttribute@6ae5aa72]" name="maruti" class="groups.GroupAttribute"/>
+      </group> <!-- Automobile -->
+    </groups>
+    <test started-at="2024-05-02T18:47:43 IST" name="Test" finished-at="2024-05-02T18:47:43 IST" duration-ms="236">
+      <class name="groups.GroupAttribute">
+        <test-method signature="creta()[pri:0, instance:groups.GroupAttribute@6ae5aa72]" started-at="2024-05-02T18:47:43 IST" name="creta" finished-at="2024-05-02T18:47:43 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creta -->
+        <test-method signature="maruti()[pri:0, instance:groups.GroupAttribute@6ae5aa72]" started-at="2024-05-02T18:47:43 IST" name="maruti" finished-at="2024-05-02T18:47:43 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maruti -->
+      </class> <!-- groups.GroupAttribute -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
