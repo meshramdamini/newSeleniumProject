@@ -1,24 +1,23 @@
 package LogicalProgram;
 
+import java.util.ArrayList;
+
 public class Practice 
 {
 	public static void main(String[] args) 
 	{  
+		ArrayList<String> strlist=new ArrayList<String>();//Creating arraylist  
+		strlist.add("Mango");//Adding object in arraylist    
+		strlist.add("Apple");    
+		strlist.add("Banana");    
+		strlist.add("Grapes");  
 		
-		//reverse String
-		 //0,1,2,3,4,5
-		String s = "Damini";
-		
-		String rev = " ";
-		
-		//s.lenght=5
-		for (int i= s.length()-1; i>=0 ;i--)
-		{
-			rev= rev+ s.charAt(i);
-		}
-		
-		System.out.println(rev);
-		
+		//System.out.println(strlist);
+		 
+		     //for(int i=0 ;i<strlist.size();i++)
+		      //{
+		    	  System.out.println(strlist.get(3));
+		      //} 
 	}
 	}
 
