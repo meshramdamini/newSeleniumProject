@@ -15,7 +15,7 @@ public class ReverseArray1 {
 		
 		for(int k= a.length-1;k>=0;k--)
 		{
-			System.out.println(a[k]+" ");
+			System.out.println(a[k]);
 		}
 
 
