@@ -5,13 +5,14 @@ public class StringCount {
 
 	    public static void main(String[] args) 
 	    {    
-	        String string = "Welcome";    
+	    	//count characters in a string and ,count e how any times comes in a string
+	        String s = "Wel come home";    
 	        int count = 0;    
 	            
 	        //Counts each character except space    
-	        for(int i = 0; i < string.length(); i++) 
+	        for(int i = 0; i < s.length(); i++) 
 	        {    
-	            if(string.charAt(i) == 'c')    
+	            if(s.charAt(i)== 'o')    
 	                count++;    
 	        }    
 	            

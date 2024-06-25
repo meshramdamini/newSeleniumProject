@@ -52,7 +52,7 @@ public class ArrayList2 {
 //		}
 		
 		//Collections.sort(Al2);
-		//System.out.println(Al2); //correct order albhabetically
+		//System.out.println(Al2); //correct order albha betically
 		
 		Collections.sort(Al2,Collections.reverseOrder());
 		System.out.println(Al2);
