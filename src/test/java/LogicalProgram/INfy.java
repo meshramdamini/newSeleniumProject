@@ -13,7 +13,7 @@ public class INfy {
 		{
 			if(s.charAt(i)=='c') 
 			{
-				count++;
+				count++; 
 			}
 		}
 		System.out.println(count);

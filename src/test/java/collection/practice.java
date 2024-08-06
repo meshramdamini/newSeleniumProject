@@ -15,7 +15,7 @@ public class practice {
 		Al.add("apple");
 		Al.add("jamun");
 		
-		//System.out.println(Al.size());
+		System.out.println(Al.size());
 		
 		for(int i = 0 ; i<Al.size();i++)
 		{
