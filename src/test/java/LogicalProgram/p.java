@@ -4,27 +4,32 @@ public class p {
 
 	public static void main(String[] args) 
 	{
+		// reverse String palindrome
 		
-		int num = 121;
-		int temp=num;
-		int rev=0,rem;
+		String str = "Damini";
+		String rev = "";
 		
-		while(temp!=0)
+		for(int i=str.length()-1;i>=0;i--)
 		{
-			rem=temp%10;
-			rev= rev*10+rem;
-			temp= temp/10;
+			rev= rev+str.charAt(i);
 		}
-		if(rev==num)
+		if(str.equals(rev))
 		{
-			System.out.println("palindrome");
+			System.out.println("String is palindrome");
 		}
-		else {
-			System.out.println(" not palindrome");
+		else 
+		{
+			System.out.println("String is not palindrome");
 		}
+	
 	}
-		
-	}
+	
+}
+	
+	
+	
+	
+	
 	
 	
 	

@@ -9,7 +9,7 @@ public class FactorialNumber {
 		//int number =5
 		int fact =1;
 		
-		for(int i=2;i<=5;i++)
+		for(int i=1;i<=5;i++)
 		{
 			fact=fact*i;//1=1*1=1 only i value change and assign to fact
 			System.out.println(fact);

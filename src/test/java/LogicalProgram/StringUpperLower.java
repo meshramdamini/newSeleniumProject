@@ -13,9 +13,11 @@ public class StringUpperLower {
 		
 		for(int i=0; i<s.length();i++)
 		{
+			//s
 			char ch = s.charAt(i);
+			//System.out.println(ch);
 			
-			// Check if the character is uppercase
+			// Check if the character is uppercase 
             if (Character.isUpperCase(ch)) 
             {
             	upper++;

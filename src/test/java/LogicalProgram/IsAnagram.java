@@ -16,7 +16,7 @@ public class IsAnagram
         Arrays.sort(arr1);
         Arrays.sort(arr2);
         
-        // Compare sorted arrays
+        // Compare sorted arrays are equal or not
         boolean isAnagram = Arrays.equals(arr1, arr2);
         // Print the result
         if (isAnagram) {
