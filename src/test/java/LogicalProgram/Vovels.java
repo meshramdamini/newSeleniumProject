@@ -4,9 +4,6 @@ public class Vovels {
 
 	public static void main(String[] args) 
 	{
-		
-		
-		// this is testing 1
 		String str = "welcome to my home";
 		//String str = "wlcm t my hm";
 		//System.out.println();
