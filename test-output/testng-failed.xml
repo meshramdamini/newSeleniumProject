@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="groups.Softassersion">
+      <class name="Assertion.SoftAssertion">
         <methods>
-          <include name="testGoogleSearchWithSoftAssertions"/>
-          <include name="setup"/>
-          <include name="teardown"/>
+          <include name="testmethod2"/>
         </methods>
-      </class> <!-- groups.Softassersion -->
+      </class> <!-- Assertion.SoftAssertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

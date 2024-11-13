@@ -21,7 +21,7 @@ public class A extends B
 		//System.out.println(1);
 		A a= new A();
 		//System.out.println(2);
-		a.show(70);
+		a.show(20);
 
 	}
 

@@ -4,11 +4,11 @@
   <test thread-count="5" name="Test">
   <groups>
   <run>
-  <include name="software company"></include> 
+  <include name="Automobile"></include>
   </run>
   </groups>
     <classes>
-      <class name="groups.GroupAttribute"/>
+      <class name="groups.GroupAttribute"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

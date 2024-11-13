@@ -1,36 +1,39 @@
 package LogicalProgram;
 
+
+
 public class p {
 
 	public static void main(String[] args) 
 	{
-		// reverse String palindrome
+
+       //STring count or in a string perticular char how many time comes in a string
 		
-		String str = "Damini";
-		String rev = "";
+		String s = "welcome";
+		int count=0;
 		
-		for(int i=str.length()-1;i>=0;i--)
+		for(int i=0;i<s.length();i++)
 		{
-			rev= rev+str.charAt(i);
+			if(s.charAt(i)=='e') 
+			{
+				count++;
+			}
 		}
-		if(str.equals(rev))
-		{
-			System.out.println("String is palindrome");
-		}
-		else 
-		{
-			System.out.println("String is not palindrome");
+		System.out.println("total count:"+count);
+		
 		}
 	
+		
 	}
-	
-}
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+

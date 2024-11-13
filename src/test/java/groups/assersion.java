@@ -14,8 +14,8 @@ package groups;
 
 	    @BeforeMethod
 	    public void setup() {
-	    	System.setProperty("webdriver.chrome.driver","F:\\SOFTWARE_SETUP\\chromedriver_win32\\ChromeDriver.exe");
-			 driver= new ChromeDriver();
+	    	System.setProperty("webdriver.chrome.driver","C:\\Users\\Damini\\Damini_Data\\SOFTWARE_SETUP\\chromedriver-win32-130\\chromedriver.exe");
+			driver= new ChromeDriver(); 
 	    }
 
 	    @AfterMethod

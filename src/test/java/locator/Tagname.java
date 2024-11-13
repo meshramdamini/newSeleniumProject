@@ -1,0 +1,22 @@
+package locator;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Tagname {
+
+	public static void main(String[] args) throws InterruptedException 
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Damini\\Damini_Data\\SOFTWARE_SETUP\\chromedriver-win32-130\\chromedriver.exe");
+	    WebDriver driver= new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://demo.automationtesting.in/Register.html");
+		Thread.sleep(2000);
+		
+		driver.findElement(By.tagName("input")).sendKeys("Damini");
+	
+		//driver.findElement(By.xpath("//input[@placeholder=\"Last Name\"]")).sendKeys("Bhagat");
+	}
+
+}

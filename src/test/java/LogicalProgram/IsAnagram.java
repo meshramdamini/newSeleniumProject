@@ -7,6 +7,7 @@ public class IsAnagram
 
 	public static void main(String[] args) 
 	{
+		//find the words are anagrame or not 
 		String s = "eat"; // First string
         String s1 = "tea"; // Second string
         // Convert strings to character arrays and sort them
